@@ -8,7 +8,7 @@
       "type": "shell",
       "command": "mix test",
       "group": {
-        "kind": "test",
+        "kind": "build",
         "isDefault": true
       }
     }
