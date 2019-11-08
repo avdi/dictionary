@@ -8,9 +8,15 @@
       "type": "shell",
       "command": "mix test",
       "group": {
-        "kind": "build",
+        "kind": "test",
         "isDefault": true
       }
+    },
+    {
+      "label": "repl",
+      "type": "shell",
+      "command": "iex -S mix",
+      "problemMatcher": []
     }
   ]
 }
